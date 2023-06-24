@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(images/8110.gif);
+    backdrop-filter: blur(20px);
+    background-attachment: fixed;
+
+    
+}
+#background{
+    display: block;
+    text-align: center;
+}
+
+.tenvh{
+    height: 10vh;
+}
+
+.Click{
+    background-color: transparent;   
+    font-family: Nosier;
+    font-size: 40px;
+    border: none;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 3px black;
+}
+#ifr{
+    display: none;
+    height: none;
+    width: none;
+    opacity: 0%
+}
+
+.Click:hover{
+    font-size: 45px;
+    letter-spacing: 6px;
+    text-shadow: -2px -2px 3px black;
+}
+
+#hyper{
+    color: rgb(184, 9, 9);
+}
+#hyper:hover{
+    color: rgb(114, 15, 15);
+}
+
+.fifty{
+height: 45vh;
+}
+
+@font-face {
+    font-family: Nosier;
+    src: url(Nosifer-Regular.ttf);
+}
